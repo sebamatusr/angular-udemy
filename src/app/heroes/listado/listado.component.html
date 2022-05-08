@@ -1,0 +1,9 @@
+<p>listado de heroes</p>
+
+<ul>
+    <li *ngFor="let item of heroes">{{item}}</li>
+</ul>
+
+<span>Héroe borrado: {{ heroeBorrado }}</span>
+
+<button (click)="popFromHeroes()">Pop array</button>
